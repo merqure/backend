@@ -13,5 +13,5 @@ RUN go install github.com/merqure/backend
 # Set binary as entrypoint
 ENTRYPOINT /go/bin/backend
 
-# Expose default port (8080)
-EXPOSE 8080
+# Expose default port (3000)
+EXPOSE 3000
